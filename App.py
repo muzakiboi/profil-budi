@@ -1,16 +1,13 @@
 import streamlit as st
 
-# 🎓 Biodata si Budi — versi kekinian
-nama: str = "Budi"                     # 🧍‍♂️ Nama lengkap (string)
-umur: int = 20                         # 🎂 Umur (integer)
-tinggi: float = 175.5                  # 📏 Tinggi badan dalam cm (float)
-is_mahasiswa: bool = True             # 🎓 Status mahasiswa (boolean)
+nama: str = "Budi"                     
+umur: int = 20                         
+tinggi: float = 175.5                 
+is_mahasiswa: bool = True             
 
-# 🎯 Hobi dan Nilai-nilai
-hobi: list[str] = ["makan", "main"]    # 🎮 List of hobbies
-nilai: tuple[int, int, int] = (90, 85, 88)  # 📝 Nilai ujian (tuple)
+hobi: list[str] = ["makan", "main"]   
+nilai: tuple[int, int, int] = (90, 85, 88) 
 
-# 🗂️ Data lengkap dalam dictionary
 data: dict = {
     "nama": nama,
     "umur": umur,
@@ -20,10 +17,8 @@ data: dict = {
     "nilai": nilai
 }
 
-# 🔐 Set — data unik
-unik: set[int] = {1, 2, 3}             # ✨ Kumpulan angka unik
+unik: set[int] = {1, 2, 3}
 
-# 🧠 Tampilan Streamlit
 st.title("📄 Profil Budi")
 
 st.markdown(f"""
