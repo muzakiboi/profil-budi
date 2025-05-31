@@ -1,9 +1,10 @@
 import streamlit as st
 
-nama: str = "Budi"                     
+nama: str = "Budiono Siregar"                     
 umur: int = 20                         
 tinggi: float = 175.5                 
-is_mahasiswa: bool = True             
+is_mahasiswa: bool = True
+is_Raja Iblis: bool = True
 
 hobi: list[str] = ["makan", "main"]   
 nilai: tuple[int, int, int] = (90, 85, 88) 
